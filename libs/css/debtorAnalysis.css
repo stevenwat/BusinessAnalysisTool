@@ -1,0 +1,21 @@
+@CHARSET "ISO-8859-1";
+
+@media screen and (max-width: 992px){
+	#debtorPdfButton {
+		margin-right: auto;
+	}
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+	#debtorPdfButton {
+		margin-right: -20rem;
+	}	
+}
+
+@media screen and (min-width: 1200px) {
+	#debtorPdfButton {
+		margin-right: auto;
+	}	
+}
+
+

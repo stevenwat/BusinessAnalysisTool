@@ -1,0 +1,98 @@
+
+#Go{
+	background: url(../../resources/map_marker_goelectrical.png); 
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#Middys{
+	background: url(../../resources/map_marker_middys.png); 
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#TLE{
+	background: url(../../resources/map_marker_tle2.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#Rexel{
+	background: url(../../resources/map_marker_rexel.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#Haymans{
+	background: url(../../resources/map_marker_haymans.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#JohnTurk{
+	background: url(../../resources/map_marker_jrt.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#MMEM{
+	background: url(../../resources/map_marker_mm.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.marker-image{
+	width: 52px; 
+	height: 50px;
+	border-radius: 20%;
+	border:1px solid #6b7f9e;
+}
+
+#icon-prospects{
+	font-size: 4rem;
+	padding-top: 0.5rem;
+	background-color: #325f88;
+	text-shadow: none;
+	color: white;
+}
+
+#icon-customers{
+	text-shadow: none;
+	color: white;
+}
+
+/*.marker-image:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 5px 5px 0 rgba(0,0,0,0.7); 
+}*/
+/* Neeeds fixing*/
+.image-checkbox:hover + #Go{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 5px 5px 0 rgba(0,0,0,0.7); 
+}
+
+.image-container{
+	margin-bottom: 4em;
+	width: 100%;
+}
+
+input.image-checkbox{
+	width: 100%;
+	/*text-align: center;*/
+}
+
+/*.fa-5x{
+	font-size: 4em;
+	background: #56a2e6;
+	color: black;	
+}*/
+
+i.icon-style{
+	background: #56a2e6;
+	color: black;
+	font-size: 4em;
+	width: 52px;
+	height: 55px;
+	border-radius: 20%;
+	border:1px solid #6b7f9e;
+    color: rgba(192, 192, 192, 0.2);
+    text-shadow: 0px 2px 2px #fff, 0 0 0 #000, 1px 4px 6px transparent;    
+}

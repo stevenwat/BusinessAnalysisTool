@@ -1,0 +1,36 @@
+@CHARSET "ISO-8859-1";
+
+@media screen and (max-width: 992px){
+	div.totalValues {
+		margin-left: auto;
+	}
+	/*Sales Overview Copy Button
+	#salesOverviewCopyButton, #downloadXlsxButton, #downloadPdfButton {*/
+	#downloadPdfButton {
+		margin-right: -8rem;
+	}
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+	div.totalValues {
+		margin-left: 7rem;
+	}
+	/*
+	#salesOverviewCopyButton, #downloadXlsxButton, #downloadPdfButton {*/
+	#downloadPdfButton {
+		margin-right: 7rem;
+	}	
+}
+
+@media screen and (min-width: 1200px) {
+	div.totalValues {
+		margin-left: 17rem;
+	}
+	/*
+	#salesOverviewCopyButton, #downloadXlsxButton, #downloadPdfButton {*/
+	#downloadPdfButton {
+		margin-right: 17rem;
+	}	
+}
+
+

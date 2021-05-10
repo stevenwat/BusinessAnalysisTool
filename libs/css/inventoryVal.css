@@ -1,0 +1,7 @@
+@CHARSET "ISO-8859-1";
+
+@media screen and (max-width: 992px){
+	#invChartContainer {
+		margin-top: 10rem;
+	}
+}
